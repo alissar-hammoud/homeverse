@@ -3,7 +3,647 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="contact-info">
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <p>info@homeverse.com</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <p>15/A, Nest Tower, NYC</p>
+          </div>
+        </div>
+        <div class="listing-info">
+          <div class="social-info">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+          <button class="listing-btn">Add Listing</button>
+        </div>
+      </div>
+      <nav class="navbar">
+        <div class="nav-img">
+          <img src="./assets/images/logo.png" alt="logo" />
+        </div>
+        <ul class="nav-ul">
+          <li><a href="#home"> Home </a></li>
+          <li><a href="#about"> About </a></li>
+          <li><a href="#service"> Service </a></li>
+          <li><a href="#property"> Property </a></li>
+          <li><a href="#blog"> Blog </a></li>
+          <li><a href="#contact"> Contact </a></li>
+        </ul>
+        <div class="nav-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-user"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-bars menu-btn"></i>
+        </div>
+        <div class="nav-icons-bottom">
+          <div class="nav-icon-bottom">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p>Search</p>
+          </div>
+          <div class="nav-icon-bottom">
+            <i class="fa-regular fa-user"></i>
+            Profile
+          </div>
+          <div class="nav-icon-bottom">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+          </div>
+          <div class="nav-icon-bottom">
+            <i class="fa-solid fa-bars menu-btn"></i>
+            Menu
+          </div>
+        </div>
+      </nav>
+      <div id="home" class="hero">
+        <div class="hero-text">
+          <div class="hero-text-note">
+            <i class="fa-solid fa-house"></i>
+            <p>Real Estate Agency</p>
+          </div>
+          <h1 class="hero-title">Find Your Dream House By Us</h1>
+          <p class="hero-subtext">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consectetur laudantium nisi amet odit rem exercitationem!
+          </p>
+          <button class="hero-btn">Make An Enquiry</button>
+        </div>
+        <div class="hero-img">
+          <img src="./assets/images/hero-banner.png" alt="hero-banner" />
+        </div>
+      </div>
+    </header>
+    <section id="about" class="about-us">
+      <div class="about-us-img">
+        <img src="./assets/images/about-banner-1.png" alt="" />
+        <div class="about-us-float">
+          <img src="./assets/images/about-banner-2.jpg" alt="" />
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="about-us-span">About Us</span>
+        <h2 class="about-us-title">
+          The Leading Real Estate Rental Marketplace.
+        </h2>
+        <p class="about-us-subtext">
+          Over 39,000 people work for us in more than 70 countries all over the
+          world. This breadth of global coverage combined with specialist
+          services
+        </p>
+        <div class="about-us-services">
+          <div class="about-us-service">
+            <i class="fa-solid fa-house"></i>
+            Smart Home Design
+          </div>
+          <div class="about-us-service">
+            <i class="fa-solid fa-leaf"></i>Beautiful Scene Around
+          </div>
+          <div class="about-us-service">
+            <i class="fa-solid fa-wine-glass"></i>
+            Exeptional Lifestyle
+          </div>
+          <div class="about-us-service">
+            <i class="fa-solid fa-shield-halved"></i>
+            Complete 24/7 Security
+          </div>
+        </div>
+        <p class="about-us-alert">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+          recusandae aspernatur doloribus.
+        </p>
+        <button class="about-us-btn">Our Services</button>
+      </div>
+    </section>
+
+    <section id="service" class="focus-bg">
+      <div class="focus">
+        <div class="head">
+          <button>Our Services</button>
+          <h2>Our Main Focus</h2>
+        </div>
+        <div class="focus-container">
+          <div class="focus-card">
+            <div class="focus-img">
+              <img src="./assets/images/service-1.png" alt="" />
+            </div>
+            <h3>Buy a home</h3>
+            <p>
+              over 1 million+ homes for sale available on the website, we can
+              match you with a house you will want to call home
+            </p>
+            <div class="focus-link">
+              <a href="#">Find A Home</a>
+              <i class="fa-solid fa-arrow-right"></i>
+              <div class="card-bottom-bar"></div>
+            </div>
+          </div>
+          <div class="focus-card">
+            <div class="focus-img">
+              <img src="./assets/images/service-2.png" alt="" />
+            </div>
+            <h3>Rent a home</h3>
+            <p>
+              over 1 million+ homes for sale available on the website, we can
+              match you with a house you will want to call home
+            </p>
+            <div class="focus-link">
+              <a href="#">Find A Home</a>
+              <i class="fa-solid fa-arrow-right"></i>
+              <div class="card-bottom-bar"></div>
+            </div>
+          </div>
+          <div class="focus-card">
+            <div class="focus-img">
+              <img src="./assets/images/service-3.png" alt="" />
+            </div>
+            <h3>Sell a home</h3>
+            <p>
+              over 1 million+ homes for sale available on the website, we can
+              match you with a house you will want to call home
+            </p>
+            <div class="focus-link">
+              <a href="#">Find A Home</a>
+              <i class="fa-solid fa-arrow-right"></i>
+              <div class="card-bottom-bar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="property" class="properties">
+      <div class="head">
+        <button>Properties</button>
+        <h2>Featured Listings</h2>
+      </div>
+      <div class="cards-container">
+        <div class="card">
+          <div class="card-img">
+            <div class="card-sale rent">FOR RENT</div>
+            <img src="./assets/images/property-1.jpg" alt="" />
+            <div class="card-img-info">
+              <div class="card-img-loc">
+                <i class="fa-solid fa-location-dot"></i>
+                Belmort Gardens, Chicago
+              </div>
+              <div class="card-img-photos">
+                <div class="card-img-icons">
+                  <i class="fa-solid fa-camera"></i> 4
+                </div>
+                <div class="card-img-icons">
+                  <i class="fa-solid fa-film"></i> 2
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-info">
+            <p class="card-price"><strong>$34,900</strong>/month</p>
+            <h3 class="card-title">New Apartment Nice View</h3>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              recusandae ad temporibus explicabo quis.
+            </p>
+            <div class="card-num">
+              <div class="sub-num">
+                <div class="sub-icon">
+                  <strong>3</strong><i class="fa-solid fa-bed"></i>
+                </div>
+                <p>Bedrooms</p>
+              </div>
+              <div class="line"></div>
+              <div class="sub-num">
+                <div class="sub-icon">
+                  <strong>2</strong><i class="fa-solid fa-person"></i>
+                </div>
+                <p>Bathrooms</p>
+              </div>
+              <div class="line"></div>
+              <div class="sub-num">
+                <div class="sub-icon">
+                  <strong>3450</strong><i class="fa-regular fa-square"></i>
+                </div>
+                <p>Square Ft</p>
+              </div>
+            </div>
+            <div class="line2"></div>
+            <div class="opinion">
+              <div class="opinion-profile">
+                <div class="opinion-img">
+                  <img src="./assets/images/author.jpg" alt="" />
+                </div>
+                <div class="opinion-name">
+                  <h3>William Seklo</h3>
+                  <p>Estatec Agents</p>
+                </div>
+              </div>
+              <div class="opinion-icon">
+                <p>
+                  <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                </p>
+                <p><i class="fa-regular fa-heart"></i></p>
+                <p><i class="fa-regular fa-square-plus"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-sale sale">FOR SALES</div>
+            <img src="./assets/images/property-2.jpg" alt="" />
+            <div class="card-img-info">
+              <div class="card-img-loc">
+                <i class="fa-solid fa-location-dot"></i>
+                Belmort Gardens, Chicago
+              </div>
+              <div class="card-img-photos">
+                <div class="card-img-icons">
+                  <i class="fa-solid fa-camera"></i> 4
+                </div>
+                <div class="card-img-icons">
+                  <i class="fa-solid fa-film"></i> 2
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-info">
+            <p class="card-price"><strong>$34,900</strong>/month</p>
+            <h3 class="card-title">Modern Apartment</h3>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              recusandae ad temporibus explicabo quis.
+            </p>
+            <div class="card-num">
+              <div class="sub-num">
+                <div class="sub-icon">
+                  <strong>3</strong><i class="fa-solid fa-bed"></i>
+                </div>
+                <p>Bedrooms</p>
+              </div>
+              <div class="line"></div>
+              <div class="sub-num">
+                <div class="sub-icon">
+                  <strong>2</strong><i class="fa-solid fa-person"></i>
+                </div>
+                <p>Bathrooms</p>
+              </div>
+              <div class="line"></div>
+              <div class="sub-num">
+                <div class="sub-icon">
+                  <strong>3450</strong><i class="fa-regular fa-square"></i>
+                </div>
+                <p>Square Ft</p>
+              </div>
+            </div>
+            <div class="line2"></div>
+            <div class="opinion">
+              <div class="opinion-profile">
+                <div class="opinion-img">
+                  <img src="./assets/images/author.jpg" alt="" />
+                </div>
+                <div class="opinion-name">
+                  <h3>William Seklo</h3>
+                  <p>Estate Agents</p>
+                </div>
+              </div>
+              <div class="opinion-icon">
+                <p>
+                  <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                </p>
+                <p><i class="fa-regular fa-heart"></i></p>
+                <p><i class="fa-regular fa-square-plus"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-sale rent">FOR RENT</div>
+            <img src="./assets/images/property-3.jpg" alt="" />
+            <div class="card-img-info">
+              <div class="card-img-loc">
+                <i class="fa-solid fa-location-dot"></i>
+                Belmort Gardens, Chicago
+              </div>
+              <div class="card-img-photos">
+                <div class="card-img-icons">
+                  <i class="fa-solid fa-camera"></i> 4
+                </div>
+                <div class="card-img-icons">
+                  <i class="fa-solid fa-film"></i> 2
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-info">
+            <p class="card-price"><strong>$34,900</strong>/month</p>
+            <h3 class="card-title">Comfortable Apartment</h3>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              recusandae ad temporibus explicabo quis.
+            </p>
+            <div class="card-num">
+              <div class="sub-num">
+                <div class="sub-icon">
+                  <strong>3</strong><i class="fa-solid fa-bed"></i>
+                </div>
+                <p>Bedrooms</p>
+              </div>
+              <div class="line"></div>
+              <div class="sub-num">
+                <div class="sub-icon">
+                  <strong>2</strong><i class="fa-solid fa-person"></i>
+                </div>
+                <p>Bathrooms</p>
+              </div>
+              <div class="line"></div>
+              <div class="sub-num">
+                <div class="sub-icon">
+                  <strong>3450</strong><i class="fa-regular fa-square"></i>
+                </div>
+                <p>Square Ft</p>
+              </div>
+            </div>
+            <div class="line2"></div>
+            <div class="opinion">
+              <div class="opinion-profile">
+                <div class="opinion-img">
+                  <img src="./assets/images/author.jpg" alt="" />
+                </div>
+                <div class="opinion-name">
+                  <h3>William Seklo</h3>
+                  <p>Estatec Agents</p>
+                </div>
+              </div>
+              <div class="opinion-icon">
+                <p>
+                  <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                </p>
+                <p><i class="fa-regular fa-heart"></i></p>
+                <p><i class="fa-regular fa-square-plus"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="aminities-bg">
+      <div class="aminities">
+        <div class="head">
+          <button>Our Aminities</button>
+          <h2>Building Aminities</h2>
+        </div>
+        <div class="aminities-container">
+          <div class="ami">
+            <div class="ami-icon">
+              <i class="fa-solid fa-car"></i>
+            </div>
+            <h3>Parking Space</h3>
+            <div class="ami-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="ami">
+            <div class="ami-icon">
+              <i class="fa-solid fa-droplet"></i>
+            </div>
+            <h3>Swimming Pool</h3>
+            <div class="ami-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="ami">
+            <div class="ami-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3>Private Security</h3>
+            <div class="ami-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="ami">
+            <div class="ami-icon">
+              <i class="fa-solid fa-heart-pulse"></i>
+            </div>
+            <h3>Medical Center</h3>
+            <div class="ami-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="ami">
+            <div class="ami-icon">
+              <i class="fa-solid fa-book"></i>
+            </div>
+            <h3>Library Area</h3>
+            <div class="ami-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="ami">
+            <div class="ami-icon">
+              <i class="fa-solid fa-bed"></i>
+            </div>
+            <h3>King Size Beds</h3>
+            <div class="ami-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="ami">
+            <div class="ami-icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <h3>Smart Homes</h3>
+            <div class="ami-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="ami">
+            <div class="ami-icon">
+              <i class="fa-regular fa-futbol"></i>
+            </div>
+            <h3>Kid's Playland</h3>
+            <div class="ami-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="blog" class="news">
+      <div class="head">
+        <button>News & Blogs</button>
+        <h2>Latest News Feeds</h2>
+      </div>
+      <div class="news-container">
+        <div class="news-card">
+          <div class="news-img">
+            <img src="assets/images/blog-1.png" alt="" />
+          </div>
+          <div class="news-text">
+            <div class="news-info">
+              <div class="news-by">
+                <i class="fa-solid fa-user"></i>
+                <p>by: Admin</p>
+              </div>
+              <div class="news-tags">
+                <i class="fa-solid fa-tags"></i>
+                <p>Interior</p>
+              </div>
+            </div>
+            <h3 class="news-title">
+              The Most Inspiring Interior Design Of 2021
+            </h3>
+            <div class="news-links">
+              <div class="news-date">
+                <i class="fa-regular fa-calendar-days"></i>
+                Apr 27, 2022
+              </div>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="news-img">
+            <img src="assets/images/blog-2.jpg" alt="" />
+          </div>
+          <div class="news-text">
+            <div class="news-info">
+              <div class="news-by">
+                <i class="fa-solid fa-user"></i>
+                <p>by: Admin</p>
+              </div>
+              <div class="news-tags">
+                <i class="fa-solid fa-tags"></i>
+                <p>Estate</p>
+              </div>
+            </div>
+            <h3 class="news-title">
+              Recent Commercial Real Estate Transactions
+            </h3>
+            <div class="news-links">
+              <div class="news-date">
+                <i class="fa-regular fa-calendar-days"></i>
+                Apr 27, 2022
+              </div>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="news-img">
+            <img src="assets/images/blog-3.jpg" alt="" />
+          </div>
+          <div class="news-text">
+            <div class="news-info">
+              <div class="news-by">
+                <i class="fa-solid fa-user"></i>
+                <p>by: Admin</p>
+              </div>
+              <div class="news-tags">
+                <i class="fa-solid fa-tags"></i>
+                <p>Room</p>
+              </div>
+            </div>
+            <h3 class="news-title">
+              Renovating a Living Room? Experts Share Their Secrets
+            </h3>
+            <div class="news-links">
+              <div class="news-date">
+                <i class="fa-regular fa-calendar-days"></i>
+                Apr 27, 2022
+              </div>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="footer">
+      <div class="explore">
+        <div class="explore-text">
+          <h3>Looking for a dream home?</h3>
+          <p>We can help you realize your dream of a new home</p>
+        </div>
+        <button class="explore-btn">
+          Explore Properties <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="about">
+        <div class="about-container">
+          <div class="about-contact">
+            <div class="cont-img">
+              <img src="./assets/images/logo-light.png" alt="" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              nostrum quae autem assumenda aspernatur quod.
+            </p>
+            <div class="about-comun">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Brooklyn,New York,United states</p>
+            </div>
+            <div class="about-comun">
+              <i class="fa-solid fa-phone"></i>
+              <p>+0123-456789</p>
+            </div>
+            <div class="about-comun">
+              <i class="fa-solid fa-envelope"></i>
+              <p>contact@homeverse.com</p>
+            </div>
+            <div class="about-icon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+          <div class="company">
+            <h2>Company</h2>
+            <p>About</p>
+            <p>Blog</p>
+            <p>All Products</p>
+            <p>Locations Map</p>
+            <p>FAQ</p>
+            <p>Contact us</p>
+          </div>
+          <div class="services">
+            <h2>Services</h2>
+            <p>Order tracking</p>
+            <p>Wish list</p>
+            <p>Login</p>
+            <p>My account</p>
+            <p>Terms & Condition</p>
+            <p>Promotional Offers</p>
+          </div>
+          <div class="customer">
+            <h2>Customer Care</h2>
+            <p>Login</p>
+            <p>My account</p>
+            <p>Wish list</p>
+            <p>Order tracking</p>
+            <p>FAQ</p>
+            <p>contact us</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bottom-bar">© 2022 codewithsadee. All Rights Reserved.</div>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
