@@ -154,7 +154,6 @@ header {
   gap: 80px;
   align-items: center;
   padding: var(--section-padding) 20px;
-  margin-top: 80px;
 }
 .hero-text {
   width: 50%;
